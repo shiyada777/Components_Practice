@@ -7,6 +7,7 @@ if(username){
 
 }else{
     const name=prompt('what is your name?');
+    const msg= prompt('Did you code today?');
    if(name){
      localStorage.setItem('username',name);
      welcomeMsg.textContent=`welcome back, ${name}!!`;
